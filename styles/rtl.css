@@ -1,0 +1,100 @@
+/*
+ Theme Name:   Entry
+ Template:     founder
+ Author: 	   Compete Themes
+ Version: 	   1.0
+ Author URI:   https://www.competethemes.com
+ Description:  This is a child theme used to customize the Founder WordPress theme.
+ License: GNU  General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url("../founder/style.min.css");
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/*===== Variables =====*/
+/* Theme Colors */
+/* Media Query widths */
+/* Social Media Brand Colors */
+/*===== Mixins =====*/
+/***** Silent Classes *****/
+body {
+  background: #ededed;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  padding: 0 8.334%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.entry {
+  background: white;
+  border: solid 1px #e0e0e0;
+  margin: 1.5em 0;
+}
+
+.featured-image {
+  width: 100%;
+  right: 0;
+  padding-bottom: 50%;
+}
+
+.post-header {
+  margin: 0;
+  padding: 1.5em;
+}
+
+.post-title {
+  font-weight: 300;
+}
+.post-title a {
+  border: none;
+  color: #666666;
+}
+.post-title a:link, .post-title a:visited {
+  color: #666666;
+}
+.post-title a:hover, .post-title a:active, .post-title a:focus {
+  color: #1a1a1a;
+}
+
+.post-meta p {
+  margin: 0;
+}
+
+@media all and (min-width: 56.25em) {
+  .entry {
+    margin: 3em 0;
+  }
+
+  .post-header {
+    text-align: right;
+    padding: 2.25em;
+  }
+
+  .post-title {
+    display: inline-block;
+  }
+
+  .post-meta {
+    float: left;
+    margin-top: 12px;
+  }
+}
+@media all and (min-width: 68.75em) {
+  .post-meta {
+    margin-top: 18px;
+  }
+}
+.site-header {
+  background: white;
+  border-color: #e0e0e0;
+}
+
+.site-footer {
+  background: white;
+  border-color: #e0e0e0;
+}
