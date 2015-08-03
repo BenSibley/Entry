@@ -268,3 +268,6 @@ blockquote {
     padding: 2.25em;
   }
 }
+.featured-slider {
+  margin-bottom: 0 !important;
+}
