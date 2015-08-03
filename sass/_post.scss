@@ -1,0 +1,63 @@
+.entry {
+  background: white;
+  border: solid 1px $color-gray-88;
+  margin: $baseline-height 0;
+}
+.featured-image {
+  width: 100%;
+  left: 0;
+  padding-bottom: 50%;
+}
+.post-header {
+  margin: 0;
+  padding: $baseline-height;
+}
+.post-title {
+  font-weight: 300;
+
+  a {
+    border: none;
+    color: $color-gray-40;
+
+    &:link,
+    &:visited {
+      color: $color-gray-40;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-gray-10;
+    }
+  }
+}
+.post-meta {
+
+  p {
+    margin: 0;
+  }
+}
+
+@media all and (min-width: $nine-hundred) {
+
+  .entry {
+    margin: $baseline-height * 2 0;
+  }
+  .post-header {
+    text-align: left;
+    padding: $baseline-height * 1.5;
+  }
+  .post-title {
+    display: inline-block;
+  }
+  .post-meta {
+    float: right;
+    margin-top: 12px;
+  }
+}
+
+@media all and (min-width: $eleven-hundred) {
+
+  .post-meta {
+    margin-top: 18px;
+  }
+}
