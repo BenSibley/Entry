@@ -152,8 +152,21 @@ blockquote {
   }
 }
 .site-header {
+  position: relative;
   background: white;
-  border-color: #e0e0e0;
+}
+.site-header:after {
+  background: #e0e0e0;
+}
+.site-header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -999px;
+  right: -999px;
+  height: 100%;
+  background: white;
+  z-index: -1;
 }
 
 .site-title {
@@ -161,8 +174,19 @@ blockquote {
 }
 
 .site-footer {
+  position: relative;
   background: white;
   border-color: #e0e0e0;
+}
+.site-footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -999px;
+  right: -999px;
+  height: 100%;
+  background: white;
+  z-index: -1;
 }
 
 .loop-pagination {
